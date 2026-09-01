@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data / patient records — never commit real or derived data
+*.parquet
+*.csv
+*.pkl
+*.pickle
+*.sav
+/data/
+/log/
+
+# Editor / OS
+.vscode/*
+!.vscode/launch.json
+.DS_Store
+Thumbs.db
+
+# Container run artifacts
+log/container/
